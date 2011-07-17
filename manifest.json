@@ -1,0 +1,11 @@
+{
+  "name": "Comic Sans Everywhere",
+  "version": "1.0",
+  "description": "The first extension that I made.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-1.6.2.min.js", "comicsans.js"]
+    }
+  ]
+}
