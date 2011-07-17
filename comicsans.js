@@ -12,17 +12,4 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-$("body").css("font-family", "Comic Sans MS")
-$("div").css("font-family", "Comic Sans MS")
-$("table").css("font-family", "Comic Sans MS")
-$("td").css("font-family", "Comic Sans MS")
-$("th").css("font-family", "Comic Sans MS")
-$("tr").css("font-family", "Comic Sans MS")
-$("a").css("font-family", "Comic Sans MS")
-$("span").css("font-family", "Comic Sans MS")
-$("h1").css("font-family", "Comic Sans MS")
-$("h2").css("font-family", "Comic Sans MS")
-$("h3").css("font-family", "Comic Sans MS")
-$("h4").css("font-family", "Comic Sans MS")
-$("h5").css("font-family", "Comic Sans MS")
-$("p").css("font-family", "Comic Sans MS")
+$("body").find("*").css("font-family", "Comic Sans MS"); 
